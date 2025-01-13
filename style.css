@@ -16,17 +16,29 @@ body{
 
 }
 
+
+
 .right-side{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     flex-grow: 3;
     background-color: #dce0e6;
     flex-direction: column;
     
 }
+.right-side > *{
+    padding: 20px;
+}
 
 .left-form,.right-form{
-    flex-grow:1;
+    flex-grow:5;
     flex-direction: column;
     display: flex;
+    padding: 20px;
+}
+
+.empty-form-space{
+    flex-grow:4;
 }
 
 .form form{
@@ -38,7 +50,8 @@ body{
     width: 20%;
     height: auto;
     flex-grow: 2;
-
+}
+.logo-text{
 }
 
 .footer{
@@ -51,5 +64,9 @@ body{
 .visibility-div{
     background-color: grey;
     opacity: 30%;    
+    position: relative;
+    top: 10vh;
+    
+    
 }
 
