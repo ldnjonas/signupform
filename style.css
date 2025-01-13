@@ -1,3 +1,15 @@
+@font-face {
+    font-family: odinFont;
+    src: url(/Users/jonasreinhard/repos/odin-signupform/signupform/assets/Norse-Bold.otf);
+    font-family: robotoFont;
+    src: url(/Users/jonasreinhard/repos/odin-signupform/signupform/assets/Roboto.ttf);
+}
+
+*{
+    font-family: robotoFont;
+    font-weight: 500;
+}
+
 body{
     display: flex;
     margin:0;
@@ -37,6 +49,10 @@ body{
     padding: 20px;
 }
 
+.left-form label, .right-form label{
+    padding-top: 20px;
+}
+
 .empty-form-space{
     flex-grow:4;
 }
@@ -52,6 +68,7 @@ body{
     flex-grow: 2;
 }
 .logo-text{
+    font-family: odinFont;
 }
 
 .footer{
@@ -65,8 +82,16 @@ body{
     background-color: grey;
     opacity: 30%;    
     position: relative;
-    top: 10vh;
-    
-    
+    top: 10vh;    
 }
 
+#create-acc-btn{
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    color:white;
+    background-color:#596D48;
+}
+
+.text,.subtext{
+    font-size: 20px;
+}
