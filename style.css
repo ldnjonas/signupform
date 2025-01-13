@@ -60,6 +60,30 @@ body{
 .form form{
     background-color: #e9ecef;
     display: flex;
+    flex-direction: column;
+    
+}
+
+.form{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.subtext, .subtext p{
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+form .text{
+    padding-left:20px;
+    margin-bottom: -10px;
+}
+
+
+.box{
+    display:flex;
+    padding-top: 0px;
 }
 
 .odin-logo{
